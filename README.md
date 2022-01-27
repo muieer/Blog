@@ -3,4 +3,4 @@
 ## 算法
 [哈夫曼编码详解与代码实现](/blogs/suanfa/HuffmanCode.md)
 ## 缓存
-[缓存穿透](https://gitee.com/muieer/blogs/blob/master/blogs/cache.md#%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F)
+[缓存穿透](/blogs/cache.md)

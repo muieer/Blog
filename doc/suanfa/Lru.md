@@ -107,4 +107,4 @@ public class LRUByArray {
     }
 }
 ```
-![输出结果](/blogs/image/Lru220603.png)
+![输出结果](/image/Lru220603.png)

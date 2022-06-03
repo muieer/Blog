@@ -107,4 +107,4 @@ public class LRUByArray {
     }
 }
 ```
-![输出结果](../../image/截屏2022-06-03 15.06.07.png)
+![输出结果](/blogs/image/Lru220603.png)

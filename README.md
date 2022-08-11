@@ -3,6 +3,8 @@
 ## 算法
 [哈夫曼编码详解与代码实现](/doc/suanfa/HuffmanCode.md)  
 [LRU 基于数组的实现](/doc/suanfa/Lru.md)
+## Scala
+[Scala 难懂符号详解](/doc/scala/symbol.md)
 ## 缓存
 [缓存穿透](/doc/cache.md)
 ## 数据库

@@ -2,8 +2,8 @@
 个人博客，记录开发过程中的技术总结与经验总结
 ## 算法
 [哈夫曼编码详解与代码实现](/doc/algorithm/HuffmanCode.md)  
-[LRU 基于数组的实现](/doc/algorithm/Lru.md)
-[布隆过滤器源码解析](/doc/algorithm/BloomFilter.md)
+[LRU 基于数组的实现](/doc/algorithm/Lru.md)  
+[布隆过滤器源码解析](/doc/algorithm/BloomFilter.md)   
 ## Scala
 [Scala 难懂符号详解](/doc/scala/symbol.md)
 ## 缓存

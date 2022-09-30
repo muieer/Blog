@@ -7,7 +7,7 @@
 ## Scala
 [Scala 难懂符号详解](/doc/scala/symbol.md)
 ## Java
-[IdentityHash 源码解析](/doc/java/map/IdentityHashMap.md)
+[IdentityHashMap 源码解析](/doc/java/map/IdentityHashMap.md)
 ## 缓存
 [缓存穿透](/doc/cache.md)
 ## 数据库

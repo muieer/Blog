@@ -111,8 +111,9 @@ private boolean resize(int newCapacity) {
 }
 ```
 ## 应用场景思考
-其他 Map 如 HashMap 是通过`Object.equals`方法判断Key是否相等，重写 equals 方法就必须重写 hashCode 方法，   
-更加关注的是 Key 内容的不同，IdentityHashMap 直接比较对象内存地址，更关注对象本身，即便是克隆，只要是独立的，
-就当作不同的 Key 看待，这样就适合序列化、深拷贝这样的场景，即使内容一样，但对每个个体都单独看待  
+其他 Map 如 HashMap 是通过`Object.equals`方法判断Key是否相等，重写 equals 方法就必须重写 hashCode 方法，更加关注的是 Key 内容的不同,
+IdentityHashMap 直接比较对象内存地址，更关注对象本身，即便是克隆，只要是独立的， 就当作不同的 Key 看待，这样就适合序列化、深拷贝这样的场景，
+即使内容一样，但对每个个体都单独看待  
+
 Spark 对一份数据广播，定要序列化和反序列化进行网络传输，更关注数据本身，即使内容一样，在此应用 IdentifyHashMap 就有其合理性
 

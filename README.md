@@ -3,7 +3,9 @@
 ## 算法
 [哈夫曼编码详解与代码实现](/doc/algorithm/HuffmanCode.md)  
 [LRU 基于数组的实现](/doc/algorithm/Lru.md)  
-[布隆过滤器源码解析](/doc/algorithm/BloomFilter.md)   
+[布隆过滤器源码解析](/doc/algorithm/BloomFilter.md) 
+## Spark
+[]()
 ## Scala
 [Scala 难懂符号详解](/doc/scala/symbol.md)
 ## Java
@@ -12,3 +14,6 @@
 [缓存穿透](/doc/cache.md)
 ## 数据库
 [外联、内联、自联](/doc/database/join.md)
+## 错误记录
+[Java 编译错误](/doc/java/java_compile_error.md)
+

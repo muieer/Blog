@@ -80,7 +80,7 @@ final class BitArray {
 1. 首先使用哈希函数Murmur3根据待添加值item得到h1、h2
 2. 根据numHashFunctions大小，循环计算，将位图对应位置的比特值设置为1
    1. 算出combinedHash，为要置1的位置，取绝对值
-   2. 设置 BitArray 对应位置比特值为 1，返回设置结果 bitsChanged
+   2. 设置 BitArray 对应位置比特值为 1，返回设置结果 bitsChanged。对 bitSize 取余，保证计算的数值小于位图大小
 3. 返回bitsChanged，为true即添加成功  
 
 BitArray添加细节如下

@@ -13,7 +13,8 @@
 ## 缓存
 [缓存穿透](/doc/cache.md)
 ## 数据库
-[外联、内联、自联](/doc/database/join.md)
+[外联、内联、自联](/doc/database/join.md)  
+[数据类型](/doc/database/DataType.md)
 ## 错误记录
 [Java 编译错误](/doc/java/java_compile_error.md)
 

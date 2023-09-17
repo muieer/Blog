@@ -1,4 +1,4 @@
-# 从 JDK8 升级到 JDK 17
+# 从 JDK 8 升级到 JDK 17
 ## 一、重要的新特性
 ### 1.1 jshell
 官方文档：https://docs.oracle.com/en/java/javase/17/docs/specs/man/jshell.html
@@ -23,3 +23,7 @@ System.out.print(text);
 本质：就是字符串，在编译期处理，JVM 不知道这是源自普通字符串还是文字块  
 使用场景：多行文本、频繁转义、需要换行  
 优点：更好写、更好读  
+使用要点：
+## 二、文档
+官方文档：https://docs.oracle.com/en/java/javase/17/  
+迁移手册：https://docs.oracle.com/en/java/javase/17/migrate

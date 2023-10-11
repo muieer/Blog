@@ -10,12 +10,17 @@
 [Scala 难懂符号详解](/doc/scala/symbol.md)
 ## Java
 [IdentityHashMap 源码解析](/doc/java/map/IdentityHashMap.md)    
-[从 JDK 8 升级到 jDK 17](/doc/java/jdk_8_to_jdk_17.md)
-## 缓存
-[缓存穿透](/doc/cache.md)
-## 数据库
-[外联、内联、自联](/doc/database/join.md)  
-[数据类型](/doc/database/DataType.md)
-## 错误记录
-[Java 编译错误](/doc/java/java_compile_error.md)
+
+[//]: # ([从 JDK 8 升级到 jDK 17]&#40;/doc/java/jdk_8_to_jdk_17.md&#41;)
+[//]: # (## 缓存)
+
+[//]: # ([缓存穿透]&#40;/doc/cache.md&#41;)
+
+[//]: # (## 数据库)
+
+[//]: # ([外联、内联、自联]&#40;/doc/database/join.md&#41;  )
+[//]: # ([数据类型]&#40;/doc/database/DataType.md&#41;)
+
+[//]: # (## 错误记录)
+[//]: # ([Java 编译错误]&#40;/doc/java/java_compile_error.md&#41;)
 

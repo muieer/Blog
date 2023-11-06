@@ -1,5 +1,5 @@
 ## 介绍
-个人博客，记录开发过程中的技术总结与经验总结
+个人博客，记录我的技术与经验总结
 ## 算法
 [哈夫曼编码详解与代码实现](/doc/algorithm/HuffmanCode.md)  
 [LRU 基于数组的实现](/doc/algorithm/Lru.md)  

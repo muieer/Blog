@@ -13,6 +13,7 @@
 
 ## Java
 [IdentityHashMap 源码解析](/doc/java/map/IdentityHashMap.md)    
+[模块系统](/doc/java/ModuleSystem.md)
 
 ## Flink
 [Flink 异步 IO API 学习笔记](/doc/flink/flink_async_io_api_note.md)

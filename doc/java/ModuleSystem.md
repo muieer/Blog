@@ -10,7 +10,7 @@
 4. 减小 JDK 体积，可以在小型设备或云部署中使用
 
 ## 二、错误解决
-**背景：**JDK 17，Spark 3.4.1，执行 `org.apache.spark.sql.SparkSession$Builder.getOrCreate()` 方法。
+**背景：** JDK 17，Spark 3.4.1，执行 `org.apache.spark.sql.SparkSession$Builder.getOrCreate()` 方法。
 
 **错误调用栈：**  
 Exception in thread "main" java.lang.IllegalAccessError: class org.apache.spark.storage.StorageUtils$ (in unnamed module @0x16eb3ea3) cannot access class sun.nio.ch.DirectBuffer (in module java.base) because module java.base does not export sun.nio.ch to unnamed module @0x16eb3ea3  

@@ -30,7 +30,7 @@ Druid 连接池认为自己性能好的原因有三点。一是连接 LRU 方式
 
 > Using a statement cache at the pooling layer is an anti-pattern, and will negatively impact your application performance compared to driver-provided caches.
 
-HikariCP 认为 JDBC 的常见驱动都有 StatementCache，而且是跨连接共享的，但是数据库连接池做不到跨连接共享，开销大。所以 HikariCP 不使用 PreparedStatementCache，认为这是一种反模式。
+[HikariCP 认为](https://github.com/brettwooldridge/HikariCP?tab=readme-ov-file#statement-cache) JDBC 的常见驱动都有 StatementCache，而且是跨连接共享的，但是数据库连接池做不到跨连接共享，开销大。所以 HikariCP 不使用 PreparedStatementCache，认为这是一种反模式。
 
 ## 六 Druid vs HikariCP Benchmarks
 
